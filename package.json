@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-address-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple javascript library to generate bitcoin private key and address",
   "main": "index.js",
   "scripts": {
