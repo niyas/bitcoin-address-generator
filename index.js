@@ -20,7 +20,7 @@ Bitcoin.createWalletAddress = (callback) => {
 // Create the private key 
 Bitcoin.createPrivateKey = () => {
     var keyPair = bitcoin.ECPair.makeRandom();
-    let privateKey = keyPair.publicKey.toString('hex');
+    let privateKey = keyPair.privateKey.toString('hex');
     return privateKey;
 }
 
